@@ -1,12 +1,35 @@
 body {
-	background-color: grey;
+	background-color: #A9A9A9;
 }
-p {
+header {
+	justify-content: center;
+	
+} 
+nav {
+	justify-content: center;
+	background-color: #483D8B;
+}
+nav p {
 	color: #000000;
 	font-size: 28px;
 	font-family: Arial;
 	font-weight: 600;
 	text-align: center;
+}
+.ulist {
+	display: block;
+	width: 300px;
+	height: 100px;
+	justify-content: center;
+	text-align: center;
+	background-color: #4B0082;
+	
+}
+.ulist li {
+	display: inline;
+	width: 300px;
+	color: #ffffff;
+	align-items: center;
 }
 img {
 	border: 1px solid #898900;
